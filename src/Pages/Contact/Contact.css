@@ -1,0 +1,95 @@
+#shopBackground{
+    width: 100%;
+    height: 250px;
+    background-image: url(../../../public/assets/shopbackground.jpg);
+    background-size: cover;
+    background-position-y: -700px;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ 
+
+ 
+}
+#backshopbig{
+    font-weight: 100;
+    font-size: 48px;
+ 
+}
+
+#homeshop{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#smallshop{
+    font-weight: -100;
+    font-size: 16px;
+}
+
+#ContactDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    
+}
+#DescripeContact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+#ContactTitle{
+    font-weight: 300;
+    font-size: 36px;
+    
+
+}
+
+#ContactP{
+    font-weight: normal;
+    font-size: 16px;
+    color: #9F9F9F;
+    margin: 0;
+}
+
+#InfoAndForm{
+    width: 80%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    #InfoAndForm{
+        width: 90%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    #shopBackground{
+        width: 100%;
+        height: 250px;
+        background-image: url(../../../public/assets/shopbackground.jpg);
+        background-size: cover;
+      background-position-y: -100px;
+       
+        background-repeat: no-repeat;   
+     
+    }
+
+}

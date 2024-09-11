@@ -1,0 +1,128 @@
+#ShopDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#ProductsWrapper{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.ProductItem{
+    width: 100%;
+    background-color: #F4F5F7;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.linkProducts{
+   
+    text-decoration: none;
+    width: 23%;
+    background-color: #F4F5F7;
+    height: 450px;
+   
+}
+
+.ProuctImg{
+    width: 100%;
+    height: 60%;
+}
+
+#shopBackground{
+    width: 100%;
+    height: 250px;
+    background-image: url(../../../public/assets/shopbackground.jpg);
+    background-size: cover;
+    background-position-y: -700px;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   
+ 
+
+ 
+}
+
+
+
+.title{
+    font-weight: 300;
+    font-size: 18px;
+    color: #3A3A3A;
+}
+
+.categoryname{
+    font-weight: 100;
+    font-size: 16px;
+    color: #898989;
+}
+
+.price{
+    font-weight: 300;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+#backshopbig{
+    font-weight: 100;
+    font-size: 48px;
+ 
+}
+
+#homeshop{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#smallshop{
+    font-weight: -100;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    #shopBackground{
+        width: 100%;
+        height: 250px;
+        background-image: url(../../../public/assets/shopbackground.jpg);
+        background-size: cover;
+      background-position-y: -100px;
+       
+        background-repeat: no-repeat;   
+     
+    }
+
+    .linkProducts{
+   
+       
+        width: 45%;
+        background-color: #F4F5F7;
+       
+       
+    }
+
+    #ProductsWrapper{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

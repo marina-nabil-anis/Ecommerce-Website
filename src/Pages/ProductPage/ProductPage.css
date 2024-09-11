@@ -1,0 +1,284 @@
+#fullProductdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    row-gap: 30px;
+
+}
+
+#AllTitlesDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    column-gap: 15px;
+    background-color: #F9F1E7;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.ProductTitles{
+    font-weight: normal;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.SmallProductName{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#DetailsMyProduct{
+    width: 90%;
+    
+    display: flex;
+    justify-content: flex-start;
+column-gap: 100px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+#leftDiv{
+    width: 40%;
+}
+
+.MyProductPhoto{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+
+
+}
+
+#RightProductDiv{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    row-gap: 10px;  
+}
+
+.MyProductTitle{
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.MyProductPrice{
+    font-weight: 100;
+    font-size: 24px;
+    color: #9F9F9F;
+}
+
+#ReviewDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.ReviewLabels{
+    color: #9F9F9F;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.SmallDescription{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.SCLabels{
+    font-weight: normal;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+
+#SizebtnsDiv{
+    display: flex;
+    column-gap: 10px;
+}
+
+.SizeBtns{
+    border: none;
+    background-color: #F9F1E7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#ColorBtnsDiv{
+    display: flex;
+    column-gap: 15px;
+}
+
+.ColorBtns{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+#FirstColor{
+    background-color: #816DFA;
+}
+
+#SecColor{
+    background-color: #000000;
+}
+
+#ThirdColor{
+    background-color: #B88E2F;
+}
+
+#CounterAndBtn{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 30px;
+    align-items: center;
+}
+
+#CartMainBtn{
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#LittleHr{
+    width: 100%;
+    color: #D9D9D9;
+}
+
+#GreyLabels{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.MyGreyLabels{
+    color: #9F9F9F;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ColumnGrey{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#MyBigHr{
+    width: 100%;
+    color: #D9D9D9;
+}
+
+#SocialIcons{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+#DescriptionDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#DescriptionTitle{
+    font-weight: 100;
+    font-size: 24px;
+}
+
+#DescripeP{
+    text-align: center;
+    color: #9F9F9F;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.Rates{
+    width: 123px;
+    height: 64px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.plus{
+   
+    border: 1px solid black;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: transparent;
+}
+.numrates{
+  
+    border: none;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 100;
+    
+    background-color: transparent;
+}
+
+.Minus{
+   
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    #DetailsMyProduct{
+        width: 90%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+   padding-left: 20px;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+
+    #leftDiv{
+        width: 100%;
+    }
+
+    #RightProductDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        row-gap: 10px;  
+    }
+}

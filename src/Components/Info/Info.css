@@ -1,0 +1,47 @@
+#InfoDiv{
+    width: 25%;
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+}
+
+.InfoLines{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.InfoDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.DetailsTitle{
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.AllDetails{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.InfoPics{
+    padding: 8px;
+}
+
+@media screen and (max-width: 500px){
+    #InfoDiv{
+        width: 90%;
+        display: flex;
+       flex-direction: column;
+       gap: 20px;
+    
+    }
+}

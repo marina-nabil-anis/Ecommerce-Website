@@ -1,0 +1,64 @@
+#MyForm{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.InputDivs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.FormLabels{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.FormInputs{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+
+#Message{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+
+#SubmitBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: #B88E2F;
+    color: white;
+    height: 60px;
+    width: 40%;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.FormInputs::placeholder{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#Message::placeholder{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+    #MyForm{
+        width: 100%;}
+
+        #SubmitBtn{
+            width: 100%;
+        }
+}

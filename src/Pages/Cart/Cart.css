@@ -1,0 +1,265 @@
+#AllCartPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+#shopBackground{
+    width: 100%;
+    height: 250px;
+    background-image: url(../../../public/assets/shopbackground.jpg);
+    background-size: cover;
+    background-position-y: -700px;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ 
+
+ 
+}
+#backshopbig{
+    font-weight: 100;
+    font-size: 48px;
+ 
+}
+
+#homeshop{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#smallshop{
+    font-weight: -100;
+    font-size: 16px;
+}
+
+#ProductCartFullDiv{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+
+#LeftCartDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+#CartProductTitles{
+    width: 100%;
+    height: 55px;
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+padding-left: 40px;
+    box-sizing: border-box;
+  
+   
+ 
+}
+
+.CartProductLabels{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.CartProductImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.MyCartProduct{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#CartSingleProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.CartProductName{
+    color: #9F9F9F;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.CartLabelQuantity{
+    border: 1px solid #9F9F9F;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.CartProductTotal{
+    font-weight: normal;
+    font-size: 16px;
+}
+.DelBTN{
+    border: none;
+    background-color: transparent;
+}
+
+#RightCartDiv{
+    width: 28%;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    row-gap: 20px;
+}
+
+.TotalsLabels{
+    display: flex;
+    column-gap: 30px;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.SubLabelTitle{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+
+
+#CartTotalss{
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.SubNumber{
+    font-weight: normal;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.TotalNumber{
+    font-weight: 100;
+    font-size: 20px;
+    color: #B88E2F;
+}
+
+#CheckBtn{
+    width: 70%;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#CartProductTitleWidth{
+    width: 20%;
+}
+
+@media screen and (max-width: 500px){
+    #ProductCartFullDiv{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 30px;
+    }
+
+    #LeftCartDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        row-gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    #CartProductTitles{
+        width: 30%;
+        height: auto;
+        background-color: #F9F1E7;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        padding-top: 40px;
+        justify-content: flex-start;
+        align-items: center;
+    padding-left: 0px;
+        box-sizing: border-box;
+     
+    }
+
+    .CartProductImg{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .MyCartProduct{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    #CartSingleProduct{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        row-gap: 20px;
+    }
+
+    #RightCartDiv{
+        width: 100%;
+        background-color: #F9F1E7;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        box-sizing: border-box;
+        row-gap: 20px;
+    }
+
+    #CartProductTitleWidth{
+        width: 50%;
+    }
+
+    #CheckBtn{
+        width: 100%;}
+
+        #shopBackground{
+            width: 100%;
+            height: 250px;
+            background-image: url(../../../public/assets/shopbackground.jpg);
+            background-size: cover;
+          background-position-y: -100px;
+           
+            background-repeat: no-repeat;   
+         
+        }
+}

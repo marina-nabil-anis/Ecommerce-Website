@@ -1,0 +1,54 @@
+.Rates{
+    width: 123px;
+    height: 64px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.plus{
+   
+    border: 1px solid black;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: transparent;
+}
+.numrates{
+  
+    border: none;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 100;
+    
+    background-color: transparent;
+}
+
+.Minus{
+   
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+
+
